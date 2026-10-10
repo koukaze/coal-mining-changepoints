@@ -1,0 +1,168 @@
+{
+  "n_events": 191,
+  "n_intervals": 190,
+  "duration_days": 40549.0,
+  "alpha": 1.0,
+  "beta_days": 200.0,
+  "poisson_mean": 3.0,
+  "k_max": 30,
+  "seed": 1123,
+  "random_generator": "NumPy PCG64 with SeedSequence.spawn",
+  "steps_per_chain": 100000,
+  "burn_transitions": 10000,
+  "n_chains": 4,
+  "retained_per_chain": 90000,
+  "rate_stride": 20,
+  "rate_summary_draws": 18000,
+  "m1_retained_draws": 50000,
+  "m1_position_acceptance": 0.5640333333333334,
+  "m1_posterior_median": {
+    "position_days": 14348.742953843128,
+    "rate_before_per_day": 0.008563534271505264,
+    "rate_after_per_day": 0.0025543863196981417
+  },
+  "log_evidence_m0": -1217.0877693997372,
+  "log_evidence_m1": -1187.3438765790288,
+  "log_bayes_factor_m1_over_m0": 29.743892820708425,
+  "log_posterior_odds_m1_over_m0": 30.842505109376535,
+  "posterior_k_map": 3,
+  "posterior_k_probabilities": [
+    0.0,
+    0.0778,
+    0.2411888888888889,
+    0.279975,
+    0.22458055555555556,
+    0.11311666666666667,
+    0.04284444444444444,
+    0.014144444444444444,
+    0.004425,
+    0.001425,
+    0.000425,
+    7.222222222222222e-05,
+    2.777777777777778e-06,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "diagnostics": {
+    "k_split_rhat": 1.0015064861938516,
+    "integrated_rate_split_rhat": 1.0003249863416932,
+    "k_ess_per_chain": [
+      528.4244394258674,
+      641.7719890667531,
+      711.377389576241,
+      728.0323696440342
+    ],
+    "integrated_rate_ess_per_chain": [
+      962.9969388286021,
+      1156.5700828836914,
+      897.2401382326055,
+      807.3084467234138
+    ]
+  },
+  "move_statistics": [
+    {
+      "height": {
+        "attempted": 8628,
+        "accepted": 8628,
+        "acceptance": 1.0
+      },
+      "position": {
+        "attempted": 8773,
+        "accepted": 1924,
+        "acceptance": 0.2193092442721988
+      },
+      "birth": {
+        "attempted": 37980,
+        "accepted": 8884,
+        "acceptance": 0.23391258557135333
+      },
+      "death": {
+        "attempted": 44619,
+        "accepted": 8880,
+        "acceptance": 0.19901835540913063
+      }
+    },
+    {
+      "height": {
+        "attempted": 8557,
+        "accepted": 8557,
+        "acceptance": 1.0
+      },
+      "position": {
+        "attempted": 8500,
+        "accepted": 1824,
+        "acceptance": 0.21458823529411764
+      },
+      "birth": {
+        "attempted": 38694,
+        "accepted": 8932,
+        "acceptance": 0.2308368222463431
+      },
+      "death": {
+        "attempted": 44249,
+        "accepted": 8928,
+        "acceptance": 0.2017672715767588
+      }
+    },
+    {
+      "height": {
+        "attempted": 8389,
+        "accepted": 8389,
+        "acceptance": 1.0
+      },
+      "position": {
+        "attempted": 8480,
+        "accepted": 1842,
+        "acceptance": 0.21721698113207547
+      },
+      "birth": {
+        "attempted": 38575,
+        "accepted": 9106,
+        "acceptance": 0.23605962410887882
+      },
+      "death": {
+        "attempted": 44556,
+        "accepted": 9102,
+        "acceptance": 0.204282251548613
+      }
+    },
+    {
+      "height": {
+        "attempted": 8558,
+        "accepted": 8558,
+        "acceptance": 1.0
+      },
+      "position": {
+        "attempted": 8397,
+        "accepted": 1725,
+        "acceptance": 0.20543051089674885
+      },
+      "birth": {
+        "attempted": 38916,
+        "accepted": 9053,
+        "acceptance": 0.23262925274951177
+      },
+      "death": {
+        "attempted": 44129,
+        "accepted": 9050,
+        "acceptance": 0.20508055926941468
+      }
+    }
+  ]
+}
