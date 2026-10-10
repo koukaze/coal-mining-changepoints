@@ -19,6 +19,6 @@
   The bundled interval data were exported from this package under its stated
   `Unlimited` terms; see [data provenance](data.md).
 
-## Coursework framework
+## Model and sampler sources
 
-Christopher J. Moore, *S2 Statistical Methods coursework*, Cambridge MPhil in Data Intensive Science, Lent Term 2026. The coursework supplies the model specification, priors and a partial RJMCMC framework following Green (1995). The Gibbs rate update and birth/death log-prior ratios are the exercise components implemented here.
+Christopher J. Moore, *Advanced Statistical Methods*: model specification, priors and a partial RJMCMC framework following Green (1995). The implementation adds the Gibbs rate update and birth/death log-prior ratios to that framework.

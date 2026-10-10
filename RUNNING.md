@@ -66,11 +66,11 @@ jupyter lab notebooks/01_fixed_dimension_models.ipynb
 Select **Python (coal change points)** and run all cells from a fresh kernel. Both notebooks use the bundled data. The second notebook can inspect a completed command-line run by setting a results directory before opening Jupyter:
 
 ```bash
-export S2_RESULTS_DIR="$(pwd)/outputs/coal"
+export COAL_RESULTS_DIR="$(pwd)/outputs/coal"
 jupyter lab notebooks/02_reversible_jump.ipynb
 ```
 
-Without `S2_RESULTS_DIR`, it performs a shorter two-chain analysis. The notebook reports which mode and settings it uses. Unset the variable to request a fresh run.
+Without `COAL_RESULTS_DIR`, it performs a shorter two-chain analysis. The notebook reports which mode and settings it uses. Unset the variable to request a fresh run.
 
 ## Reproducibility and interpretation
 
