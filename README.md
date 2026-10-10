@@ -2,8 +2,6 @@
 
 Bayesian inference for piecewise-constant event rates, from a conjugate constant-rate model to a reversible-jump sampler over an unknown number of change points.
 
-**Peijing Pang · Cambridge MPhil in Data Intensive Science · S2 statistical methods coursework (2026)**
-
 The analysis uses 191 recorded British coal-mining disasters to investigate changes in event rate and uncertainty in model complexity. It combines Gamma-Poisson inference, Metropolis-within-Gibbs sampling, marginal likelihoods and reversible-jump MCMC.
 
 ## Features
